@@ -1,6 +1,7 @@
 // Defirnir uma variável como um array de dois valores
 // Usar uma função para randomizar o resultado. Dessa forma existe uma probabilidade de 50% cada.
 let semaforo = pickRandom( ["vermelho", "verde"]);
+console.log(semaforo);
 // Se o valor de semaforo for "verde" será exibida a mensagem "Você pode passar"
 if(semaforo == "verde"){
     console.log('Você pode passar')
