@@ -1,5 +1,5 @@
 # Função que transforma tempo em minutos em segundos
-# Conseguir input do tempo em segundos
+# Conseguir input do tempo em minutos
 # definir uma função 
 # printar o resultado final em segundos 
 
