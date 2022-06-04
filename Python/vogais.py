@@ -11,7 +11,7 @@ def contarVogais(string):
         resultado += string.count(i) # some o resultado com a quantidade de caracteres i equivalentes em string e vogais
     return resultado # devolver o número de vogais 
     
- # pegar o texto do usuário   
+# pegar o texto do usuário   
 string = input("texto: ")     
 # imprimir a quantidade de vogais do texto obtido        
 print(contarVogais(string))
