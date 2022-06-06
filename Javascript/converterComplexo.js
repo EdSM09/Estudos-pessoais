@@ -20,4 +20,4 @@ if(dias > 0);{
 if (horas > 0 );{
     console.log("equivale a " + converter(horas) + " minutos");}
 if(minutos > 0 );{
-    console.log("equivale a " + conveter(minutos) + " segundos");}
+    console.log("equivale a " + converter(minutos) + " segundos");}
