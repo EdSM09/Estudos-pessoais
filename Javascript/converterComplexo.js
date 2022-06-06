@@ -15,7 +15,7 @@ function converterDias(argument){
 function converterHoras(argument){
     let minutos = argument * 60;
     let segundos = minutos * 60;
-    console.log("Equivalem a: " + minutos + " minutos e " + segundos + "segundos.")
+    console.log("Equivalem a: " + minutos + " minutos e " + segundos + " segundos.")
 }
 function converterMinutos(argument){
     let segundos = argument * 60;
