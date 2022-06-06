@@ -10,30 +10,30 @@ function converterDias(argument){
      let horas = argument * 24;
      let minutos = horas * 60;
      let segundos = minutos * 60;
-     console.log(horas + " " + minutos + " "+ segundos)
+     console.log("Equivalem a: "+ horas + " horas, " + minutos + " minutos, e "+ segundos + " segundos.")
 }    
 function converterHoras(argument){
     let minutos = argument * 60;
     let segundos = minutos * 60;
-    console.log(minutos + " " + segundos)
+    console.log("Equivalem a: " + minutos + " minutos e " + segundos + "segundos.")
 }
 function converterMinutos(argument){
     let segundos = argument * 60;
-    console.log(segundos);
+    console.log("Equivalem a: "+segundos + " segundos.");
 }
 
-console.log("Dias: ")
+console.log("Conversão dos dias: ")
 if(dias > 0);{
     converterDias(dias)
 }
 
 console.log(" ")
-console.log("Horas:")
+console.log("Conversão das horas:")
 if(horas > 0);{
     converterHoras(horas)
 }
 console.log(" ")
-console.log("Minutos")
+console.log("Conversão dos minutos")
 if(minutos > 0);{
     converterMinutos(minutos)
 }
