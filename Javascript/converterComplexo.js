@@ -22,6 +22,7 @@ function converterMinutos(argument){
     console.log("Equivalem a: "+segundos + " segundos.");
 }
 
+console.log(" ")
 console.log("Conversão dos dias: ")
 if(dias > 0);{
     converterDias(dias)
