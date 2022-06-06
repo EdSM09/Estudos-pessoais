@@ -2,9 +2,9 @@
 
 
 // definir os valores a serem transformados
-let dias = 5;
+let dias = 4;
 let horas = 2;
-let minutos = 3;
+let minutos = 6;
 
 
 // função para converter dias para horas, minutos e segundos
@@ -35,7 +35,8 @@ if(dias > 0);{
     console.log(" ")
     console.log("Conversão dos dias: ")
     converterDias(dias)
-}
+} 
+
 
 if(horas > 0);{
     console.log(" ")
