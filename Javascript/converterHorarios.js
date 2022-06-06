@@ -9,3 +9,5 @@ function converter(argument){
     console.log("equivale a " + minutos + " minutos");
     console.log("equivale a " + segundos + " segundos")
 }   
+// fazer a chamada da função
+converter(horas)
