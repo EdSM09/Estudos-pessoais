@@ -22,12 +22,18 @@ function converterMinutos(argument){
     console.log(segundos);
 }
 
+console.log(" Dias: ")
 if(dias > 0);{
     converterDias(dias)
 }
+
+console.log(" ")
+console.log("Horas:")
 if(horas > 0);{
     converterHoras(horas)
 }
+consoçe.log(" ")
+console,log("Minutos")
 if(minutos > 0);{
     converterMinutos(minutos)
 }
