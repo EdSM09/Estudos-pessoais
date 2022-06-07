@@ -6,3 +6,8 @@
 Var1 = 1.999999999999 + 0.0000000000001
 print(Var1)
 io.write(type(Var1))
+
+Var2 = [[
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non interdum risus. Vivamus gravida tortor vitae diam convallis commodo. Nulla cursus sapien ac eros fringilla laoreet.
+]]
+print(Var2)
