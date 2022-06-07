@@ -18,4 +18,4 @@ print(type(Nome)) -- lembre-se disso
 ]]
 Nome = 14
 print(Nome)
-print(type(Nome)) 
+print(type(Nome))

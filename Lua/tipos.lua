@@ -4,5 +4,5 @@
 
 -- lua tem uma boa precisãoo com relação a numeros do tipo float
 Var1 = 1.999999999999 + 0.0000000000001
-io.write(Var1)
+print(Var1)
 io.write(type(Var1))
