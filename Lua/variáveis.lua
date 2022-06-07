@@ -2,7 +2,10 @@
 -- O nome de uma variável pode começar com um número
 -- Por exemplo:
 
-nome = "Marcus"
-print(nome)
+Nome = "Marcus"
+print(Nome)
+print(type(Nome))
 
-nome = 14
+Nome = 14
+print(Nome)
+print(type(Nome))
