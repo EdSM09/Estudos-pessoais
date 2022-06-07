@@ -13,3 +13,7 @@ Vivamus gravida tortor vitae diam convallis commodo.
 Nulla cursus sapien ac eros fringilla laoreet.
 ]]
 print(Var2)
+
+Var3 = true
+print(Var3)
+print(type(Var3))
