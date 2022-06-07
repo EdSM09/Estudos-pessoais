@@ -4,3 +4,5 @@
 
 nome = "Marcus"
 print(nome)
+
+nome = 14
