@@ -15,4 +15,5 @@ function contarLetras(argument){
 
 
 
-texto = ""
+texto = "oi"
+console.log(contarLetras(texto))
