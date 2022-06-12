@@ -6,6 +6,8 @@ function isLetter(str) {
   }
   
 
+  // A função está devolvendo um número  porém não o número certo
+
 function contarLetras(argument){
     let n = 0
     for(var i = 0; i < argument.length; i++){
