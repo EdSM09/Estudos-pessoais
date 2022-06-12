@@ -1,6 +1,6 @@
 // Função que conta todos caracteres alfabeticos
 
-let texto = "oi"
+let texto = ["oi eu sou o goku"]
 function isLetter(str) {
     return str.length === 1 && str.match(/[a-z]/i);
   }
@@ -10,12 +10,13 @@ function isLetter(str) {
 
 function contarLetras(argument){
     let n = 0
-    for(var i = 0; i < argument.length; i++){
-        if(isLetter(argument[i])){
-            n++
-            return n
+    if( typeof(argument) === 'string' )
+        for(var i = 0; i < argument.length; i++){
+            if(isLetter(argument[i])){
+                n++
+                return n
+                }
             }
-        }
 }
 
 console.log(contarLetras(texto))
