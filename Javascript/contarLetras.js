@@ -1,7 +1,7 @@
 // Função que conta todos caracteres alfabeticos
 
 
-let texto = true
+let texto = "teste a"
   
 function contarLetras(argument){
     let n = 0 // variável local que armazena o comprimento total da string
@@ -13,16 +13,14 @@ function contarLetras(argument){
             if (argument[i] === " "){ // dar consideração aos espaços
                 s++ // incrementar ao valor 
         } 
-        }
-        // medida de controle
-        if(typeof(argument) !== 'string'){
-            console.log("INSIRA UMA STRING")
-        }
-
-
         return n - s // devolver o valor total de caracteres dentro da string
+    }
 }
+if (typeof(texto) === 'string'){
+    console.log(contarLetras(texto))
+}
+// medida de controle
+if(typeof(texto) !== 'string'){
+    console.log("INSIRA UMA STRING")
 
-let comp = contarLetras(texto)
-console.log(comp)
-
+}
