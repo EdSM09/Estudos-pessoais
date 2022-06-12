@@ -1,6 +1,8 @@
 // Função que conta todos caracteres alfabeticos
 
-let texto = " a d v"
+
+// verificar se a função conta caracteres acentuados
+let texto = "éôÃ"
   
 
 // função está contando letras e espços
