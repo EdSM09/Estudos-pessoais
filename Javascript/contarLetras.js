@@ -1,6 +1,6 @@
 // Função que conta todos caracteres alfabeticos
 
-let texto = ["oi"]
+let texto = "oi"
 function isLetter(str) {
     return str.length === 1 && str.match(/[a-z]/i);
   }
