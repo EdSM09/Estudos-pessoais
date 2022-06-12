@@ -8,13 +8,16 @@ function contarLetras(argument){
     let s = 0 // variável que armazena o número de espaços
 
     for(var i= 0; i < argument.length; i++) // para todo o comprimento do argumento
-        if( typeof(argument) === 'string' ){
-            n = argument.length
-            if (argument[i] === " "){
-                s = s + 1
-
+        if( typeof(argument) === 'string' ){ // se o argumento for uma string execute o seguinte
+            n = argument.length // incrementar um valor a essa variável
+            if (argument[i] === " "){ // dar consideração aos espaços
+                s++ // incrementar ao valor 
+            return n - s // devolver o valor total de caracteres dentro da string
+        } 
+        // medida de controle
+        else{
+            console.log("INSIRA UMA STRING!!!")
         }
-        return n - s
     }
 
 }
