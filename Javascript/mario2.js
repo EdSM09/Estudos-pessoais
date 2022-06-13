@@ -1,12 +1,14 @@
-let altura = 10
+let altura = 3
 
-function imprimirPiramide(altura){
-    for(var i = 0; i < altura; i++){
-        for(var j = 1; j <= altura; j++ ){
+function imprimirPiramide(argument){
+    for(var i = 0; i < argument; i++){
+        for(var j = 1; j <= argument; j++ ){
             console.log(" ");
         }
-        for(var j = 1; j <= altura - 1; j++){
+        for(var j = 1; j <= argument ; j++){
             console.log("#")
         }
     }
 }
+
+imprimirPiramide(altura)
