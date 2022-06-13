@@ -20,7 +20,15 @@ let altura = 5
 //  }
 
 function imprimirPiramide(argument){
+    for (var i = 1; i <= argument; i++) {
+        var row = '';
     
-}
+        for (var j = 1; j <= i; j++) {
+          row += '*';
+        }
+    
+        console.log(row);
+      }
+    }
 
-console.log(imprimirPiramide(altura))
+imprimirPiramide(altura)
