@@ -1,4 +1,4 @@
-// Função que conta todos caracteres alfabeticos
+// Função que conta todos caracteres
 
 
 let texto = "a b c d"
