@@ -8,4 +8,4 @@ def numPrimo(num):
     if( num / num == 1) and (num / 1 != float):
         print("É um número primo")
 
-numPrimo(num):
+numPrimo(num)
