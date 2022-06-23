@@ -12,3 +12,5 @@ def imparPar(num):
             print("Par!")
         else:
             print("Impar!")
+            
+imparPar(num)
