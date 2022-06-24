@@ -5,8 +5,6 @@ altura = int(input("Altura da Pirâmide: "))
 # pedir o tipo da pirâmide
 tipo = input("Tipo: ").upper()
 
-
-
 # definir as funções de cada piramide
 
 # pirâmide completa ponta ara cima
@@ -26,12 +24,14 @@ def piramideBaixo(altura):
         for j in range(2 * i - 1):
             print("#", end=" ")
         print( )
+        
 # meia pirâmide direita
 def piramideEsquerda(altura):
     for i in range(1, altura + 1):
         for j in range(1, i + 1):
             print("#", end=" ")
         print( )
+        
 # meia pirâmide esqueda
 def piramideDireita(altura):
     for i in range(altura):
@@ -41,15 +41,16 @@ def piramideDireita(altura):
             print("#", end=" ")
         print( )
         
-# criar os if elif statements para checar os tipos
+# if elif statements para checar os tipos e imprimir as pirâmides
 if tipo == "CIMA":
     piramideCima(altura)
+    
 elif tipo == "BAIXO":
     piramideBaixo(altura)
+    
 elif tipo == "DIREITA":
     piramideDireita(altura)
+    
 elif tipo == "ESQUERDA":
     piramideEsquerda(altura)
 
-# testes
-# piramideBaixo(altura)
