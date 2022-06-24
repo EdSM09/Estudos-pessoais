@@ -39,4 +39,4 @@ def piramideEsquerda(altura):
     
 
 # testes
-piramideEsquerda(altura)
+piramideCima(altura)
