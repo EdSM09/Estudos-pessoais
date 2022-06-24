@@ -2,9 +2,11 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.arange(-100,1000,1)
+x1 = np.arange(-100,1000,1)
+x2 = np.arange(-100,1000,1)
 
-y = x ** 2 
+y1 = x1 ** 2 
+y2 = x2 ** 6
 
 plt.plot(x, y)
 
