@@ -9,7 +9,7 @@ altura = int(input("Altura da Pirâmide: "))
 
 # pirâmide completa ponta ara cima
 def piramideCima(altura):
-    for i in range(n):
+    for i in range(altura):
         for j in range(altura- i - 1):
             print(".", end=" ")
         for k in range(2 * i + 1):
