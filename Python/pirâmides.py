@@ -1,6 +1,7 @@
 # programa que gera diferentes modelos de piramide dependendo do input do usuário
 
 # pedir a altura da pirâmide
+
 # pedir o tipo da pirâmide
 
 # definir as funções de cada piramide
