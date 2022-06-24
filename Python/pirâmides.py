@@ -42,6 +42,12 @@ def piramideEsquerda(altura):
 # criar os if elif statements para checar os tipos
 if tipo == "CIMA":
     piramideCima(altura)
+elif tipo == "BAIXO":
+    piramideBaixo(altura)
+elif tipo == "DIREITO":
+    piramideDireita(altura)
+elif tipo == "ESQUERDA":
+    piramideEsquerda(altura)
 
 # testes
 # piramideBaixo(altura)
