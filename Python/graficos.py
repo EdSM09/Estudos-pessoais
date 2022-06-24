@@ -13,4 +13,8 @@ plt.plot(x, y)
 plt.xlabel("Eixo X")
 plt.ylabel("Eixo Y")
 
-# 
+# dar nome ao grafico
+plt.title("Primeiro Gráfico")
+
+# mostrar o gráfico
+plt.show()
