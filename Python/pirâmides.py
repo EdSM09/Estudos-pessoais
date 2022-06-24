@@ -25,13 +25,13 @@ def piramideBaixo(altura):
             print("#", end=" ")
         print( )
 # meia pirâmide direita
-def piramideDireita(altura):
+def piramideEsquerda(altura):
     for i in range(1, altura + 1):
         for j in range(1, i + 1):
             print("#", end=" ")
         print( )
 # meia pirâmide esqueda
-def piramideEsquerda(altura):
+def piramideDireita(altura):
     for i in range(altura):
         for j in range(1, altura - 1):
             print(" ", end=" ")
