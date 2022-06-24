@@ -6,7 +6,7 @@ x1 = np.arange(-100,1000,1)
 x2 = np.arange(-100,1000,1)
 
 y1 = x1 ** 2 
-y2 = x2 ** 6
+y2 = 1 / x2
 
 plt.plot(x1, y1)
 plt.plot(x2, y2)
