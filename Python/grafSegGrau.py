@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 x1 = np.arange(-100,1000,1)
-x2 = np.arange(-100,1000,1)
+x2 = np.arange(-100,100,1)
 
 y1 = x1 ** 2 
-y2 = x2**2 + 5 * x2 
+y2 = (x2**2 )+ 5 * x2 
 
 plt.plot(x1, y1)
 plt.plot(x2, y2)
