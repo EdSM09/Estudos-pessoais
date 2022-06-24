@@ -3,7 +3,7 @@
 # pedir a altura da pirâmide
 altura = int(input("Altura da Pirâmide: "))
 # pedir o tipo da pirâmide
-# tipo = input("Tipo: ")
+tipo = input("Tipo: ")
 
 # definir as funções de cada piramide
 
@@ -40,9 +40,8 @@ def piramideEsquerda(altura):
         print( )
         
 # criar os if elif statements para checar os tipos
-    # passar as funções com a altura como argumento
-    
-    
+if tipo == "CIMA":
+    piramideCima(altura)
 
 # testes
-piramideBaixo(altura)
+# piramideBaixo(altura)
