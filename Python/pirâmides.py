@@ -19,7 +19,7 @@ def piramideCima(altura):
 # pirâmide completa ponta para baixo
 def piramideBaixo(altura):
     for i in range(altura, 0, -1): 
-        for j in range(altura - 1):
+        for j in range(altura -  i):
             print(".", end=" ")
         for j in range(2 * i - 1):
             print("#", end=" ")
