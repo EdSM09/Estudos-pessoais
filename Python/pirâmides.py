@@ -12,7 +12,10 @@ tipo = input("Tipo: ")
 
 # meia pirâmide direita
 def pirâmideDireita(altura):
-    
+    for i in range(1, altura + 1):
+        for j in range(1, i + 1):
+            prit("#", end=" ")
+        print( )
 # meia pirâmide esqueda
     
 # criar os if elif statements para checar os tipos
