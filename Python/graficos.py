@@ -5,3 +5,8 @@ import matplotlib.pyplot as plt
 x = [1,5,6,7,8,10,12]
 # valores de Y
 y = [ 5,6,7,2,38,9,7]
+
+plt.plot(x, y)
+
+plt.xlabel("Eixo X")
+plt.ylabel("Eixo Y")
