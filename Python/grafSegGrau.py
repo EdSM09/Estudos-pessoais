@@ -8,7 +8,8 @@ x2 = np.arange(-100,1000,1)
 y1 = x1 ** 2 
 y2 = x2 ** 6
 
-plt.plot(x, y)
+plt.plot(x1, y1)
+plt.plot(x2, y2)
 
 # dar nomes aos eixos
 plt.xlabel("Eixo X")
