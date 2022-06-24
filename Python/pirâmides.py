@@ -44,7 +44,7 @@ if tipo == "CIMA":
     piramideCima(altura)
 elif tipo == "BAIXO":
     piramideBaixo(altura)
-elif tipo == "DIREITO":
+elif tipo == "DIREITA":
     piramideDireita(altura)
 elif tipo == "ESQUERDA":
     piramideEsquerda(altura)
