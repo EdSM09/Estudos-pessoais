@@ -4,6 +4,8 @@
 altura = int(input("Altura da Pirâmide: "))
 # pedir o tipo da pirâmide
 tipo = input("Tipo: ")
+tipo = tipo.upper()
+print(tipo)
 
 # definir as funções de cada piramide
 
