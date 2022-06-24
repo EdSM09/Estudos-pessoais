@@ -6,8 +6,16 @@ altura = int(input("Altura da Pirâmide: "))
 # tipo = input("Tipo: ")
 
 # definir as funções de cada piramide
-# pirâmide completa ponta ara cima
 
+# pirâmide completa ponta ara cima
+def piramideCima(altura):
+    for i in range(n):
+        for j in range(altura- i - 1):
+            print(".", end=" ")
+        for k in range(2 * i + 1):
+            print("#", end=" ")
+        print( )
+            
 # pirâmide completa ponta para baixo
 
 # meia pirâmide direita
