@@ -26,7 +26,7 @@ y = raio * np.sin(angulo)
 
 figure , axes = plt.subplots(1)
 
-axes.plot(x, y)
+axes.plot(x, y, edgecolors= 'red')
 axes.set_aspect(1)
 
 plt.title("Circuferência")
