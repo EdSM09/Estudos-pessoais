@@ -7,3 +7,5 @@ import turtle
 # inicializar a tela
 s = turtle.getscreen()
 
+# fazer um desenho básico
+t = turtle.Turtle()
