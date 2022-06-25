@@ -8,13 +8,13 @@ import numpy as np
 # tentar alguns metôdos da internet
 
 # metodo 1
-figure, axes = plt.subplots()
-cc = plt.Circle((0.5 , 0.5), 0.4)
+# figure, axes = plt.subplots()
+# cc = plt.Circle((0.5 , 0.5), 0.4)
 
-axes.set_aspect(1)
-axes.add_artist(cc)
-plt.title("Circulo Colorido")
-plt.show()
+# axes.set_aspect(1)
+# axes.add_artist(cc)
+# plt.title("Circulo Colorido")
+# plt.show()
 
 # metodo 2
 angulo  = np.linspace(0 , 2 * np.pi , 150)
