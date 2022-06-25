@@ -9,3 +9,8 @@ s = turtle.getscreen()
 
 # fazer um desenho básico
 t = turtle.Turtle()
+
+t.right(100)
+t.foward(100)
+t.left(10)
+t.backward(90)
