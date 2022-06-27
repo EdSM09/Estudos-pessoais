@@ -10,10 +10,15 @@ dataAtual = date.today() # definir data atual
 dataAtualS = dataAtual.strftime("%d/%m/%y") # transformar ela em uma string no formato dd/mmm/aa
 print(dataAtualS) # imprimir data para confirmar 
 
-# comparar a string que representa a data atual com data do meu aniversário
 # criar uma variável com a data de aniversário
 aniversario = date(2023, 3, 8)
 aniversarioS = aniversario.strftime("%d/%m/%y")
 print(aniversarioS) # imprimir para confirmar 
+
+# comparar a string que representa a data atual com data do meu aniversário
+if dataAtualS === aniversarioS:
+    print("Parabéns é seu aniversário!!!!")
+else:
+    print("Poxa, não é seu aniversário")
 # imprimir se é ou não é meu aniversário
 # calcular a diferença em dias entre as datas 
