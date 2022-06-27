@@ -5,7 +5,7 @@ from datetime import date
 
 # criar uma variável que irá armazenar a data atual
 dataAtual = date.today()
-dataAtualS = dataAtual.strftime("%d%m%y")
+dataAtualS = dataAtual.strftime("%d/%m/%y")
 print(dataAtualS)
 # transformar essa data em uma string usando strftime()
 
