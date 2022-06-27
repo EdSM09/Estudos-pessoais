@@ -12,40 +12,50 @@ while True:
     jogador = None
     while jogador not in opções:
         jogador = input("Pedra papel ou tessoura?: ").lower()
-        print(jogador)
 
     # fazer o computador escolher um valor dentro da variávell opções 
     computador =  random.choice(opções)
-    print(computador)
 
 
     # criar os if statements de acordo com as regras do jogo 
     # empate
     if jogador == computador:
+        print("Jogador: ",jogador)
+        print("Computador: ",computador)
         print("Empate! ")
     # pedra
     elif jogador == "pedra":
         if computador == "tessoura":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
             print("Você ganhou!!!!!")
         if computador == "papel":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
             print("Você perdeu!")
     # papel 
     elif jogador == "papel":
         if computador == "pedra":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
             print("Você ganhou!!!!!")
         if computador == "tessoura":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
             print("Você perdeu!")
 
     # tessoura
     elif jogador == "tessoura":
         if computador == "papel":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
             print("Você ganhou!!!!!")
-        if computador == "pedra":        
+        if computador == "pedra":   
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)     
             print("Você perdeu!")
     jogarNovamente = input("Você que jogar de novo (sim/não)?: ").lower()
     
     if jogarNovamente != "sim":
         break
 print("Tchaul!")
-
-        
