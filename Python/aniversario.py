@@ -15,6 +15,9 @@ aniversario = date(2023, 3, 8)
 aniversarioS = aniversario.strftime("%d/%m/%y")
 print(aniversarioS) # imprimir para confirmar 
 
+# calcular a diferença em dias entre as datas 
+def difDatas(dataAtual, aniversario):
+    return (aniversario - dataAtual).days
 # comparar a string que representa a data atual com data do meu aniversário
 # imprimir se é ou não é meu aniversário
 
@@ -22,4 +25,4 @@ if dataAtualS == aniversarioS:
     print("Parabéns é seu aniversário!!!!")
 else:
     print("Poxa, não é seu aniversário")
-# calcular a diferença em dias entre as datas 
+    print("Mas faltam ", difDatas(dataAtual, aniversario), "Dias")
