@@ -8,7 +8,7 @@ opções = ["pedra", "papel", "tessoura"]
 # pedir a escolha do jogador em minusculo 
 # garantir que o input é uma das opções do jogo
 jogador = none
-while jogador not in opções
+while jogador not in opções:
     jogador = input("Pedra papel ou tessoura?: ").lower()
 print(jogador)
 
