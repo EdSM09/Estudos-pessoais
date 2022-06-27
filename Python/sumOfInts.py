@@ -3,4 +3,6 @@
 # criar uma lista de numeros 
 num = list(range(0, 101))
 print(num)
-# passar a função com a lista como argumento 
+
+soma = sum(num)
+print(soma)
