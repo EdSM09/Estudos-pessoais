@@ -1,9 +1,9 @@
-# jogo básico de pedra papel e tessoura 
+# jogo básico de pedra papel e tesoura 
 # importar a biblioteca random
 import random 
 
 # opções de escolha do jogo
-opções = ["pedra", "papel", "tessoura"]
+opções = ["pedra", "papel", "tesoura"]
 
 # fazer um loop while para repetir o jogo
 while True:
@@ -11,7 +11,7 @@ while True:
     # garantir que o input é uma das opções do jogo
     jogador = None
     while jogador not in opções:
-        jogador = input("Pedra papel ou tessoura?: ").lower()
+        jogador = input("Pedra papel ou tesoura?: ").lower()
 
     # fazer o computador escolher um valor dentro da variávell opções 
     computador =  random.choice(opções)
@@ -25,7 +25,7 @@ while True:
         print("Empate! ")
     # pedra
     elif jogador == "pedra":
-        if computador == "tessoura":
+        if computador == "tesoura":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
@@ -39,13 +39,13 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
-        if computador == "tessoura":
+        if computador == "tesoura":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
 
-    # tessoura
-    elif jogador == "tessoura":
+    # tesoura
+    elif jogador == "tesoura":
         if computador == "papel":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
