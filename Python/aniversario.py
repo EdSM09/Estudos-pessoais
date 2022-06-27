@@ -1,6 +1,7 @@
 # programa que checa a data e confirm se é meu aniversário 
 # ele vai servir como um teste da biblioteca datetime 
 # importar a biblioteca
+from datetime import date
 
 # criar uma variável que irá armazenar a data atual
 
