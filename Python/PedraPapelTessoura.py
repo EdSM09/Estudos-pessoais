@@ -42,5 +42,10 @@ while True:
             print("Você ganhou!!!!!")
         if computador == "pedra":        
             print("Você perdeu!")
+    jogarNovamente = input("Você que jogar de novo (sim/não)?: ").lower()
+    
+    if jogarNovamente != "sim":
+        break
+print("Tchaul!")
 
         
