@@ -5,7 +5,8 @@ from datetime import date
 
 # criar uma variável que irá armazenar a data atual
 dataAtual = date.today()
-print(dataAtual)
+dataAtualS = dataAtual.strftime("%d%m%y")
+print(dataAtualS)
 # transformar essa data em uma string usando strftime()
 
 # comparar a string que representa a data atual com data do meu aniversário
