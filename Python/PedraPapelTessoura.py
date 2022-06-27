@@ -6,8 +6,12 @@ import random
 opções = ["pedra", "papel", "tessoura"]
 
 # pedir a escolha do jogador em minusculo 
-jogador = input("Pedra papel ou tessoura?: ").lower()
+# garantir que o input é uma das opções do jogo
+jogador = none
+while jogador not in opções
+    jogador = input("Pedra papel ou tessoura?: ").lower()
 print(jogador)
+
 # fazer o computador escolher um valor dentro da variávell opções 
 computador =  random.choice(opções)
 print(computador)
