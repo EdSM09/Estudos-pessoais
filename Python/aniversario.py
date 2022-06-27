@@ -12,7 +12,7 @@ print(dataAtualS) # imprimir data para confirmar
 
 # comparar a string que representa a data atual com data do meu aniversário
 # criar uma variável com a data de aniversário
-aniversario = date(23, 03, 08)
+aniversario = date(23, 3, 8)
 print(aniversario) # imprimir para confirmar 
 # imprimir se é ou não é meu aniversário
 # calcular a diferença em dias entre as datas 
