@@ -16,7 +16,7 @@ aniversarioS = aniversario.strftime("%d/%m/%y")
 print(aniversarioS) # imprimir para confirmar 
 
 # comparar a string que representa a data atual com data do meu aniversário
-if dataAtualS === aniversarioS:
+if dataAtualS == aniversarioS:
     print("Parabéns é seu aniversário!!!!")
 else:
     print("Poxa, não é seu aniversário")
