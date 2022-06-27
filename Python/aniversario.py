@@ -8,12 +8,10 @@ dataAtual = date.today() # definir data atual
 
 # transformar essa data em uma string usando strftime()
 dataAtualS = dataAtual.strftime("%d/%m/%y") # transformar ela em uma string no formato dd/mmm/aa
-print(dataAtualS) # imprimir data para confirmar 
 
 # criar uma variável com a data de aniversário
 aniversario = date(2023, 3, 8)
 aniversarioS = aniversario.strftime("%d/%m/%y")
-print(aniversarioS) # imprimir para confirmar 
 
 # calcular a diferença em dias entre as datas 
 def difDatas(dataAtual, aniversario):
