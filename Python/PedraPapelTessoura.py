@@ -19,9 +19,14 @@ print(computador)
 
 # criar os if statements de acordo com as regras do jogo 
 # empate
-
+if jogador == computador:
+    print("Empate! ")
 # pedra
-
+elif jogador == "pedra":
+    if computador == "tessoura":
+        print("Você ganhou!!!!!")
+    if computador == "papel":
+        print("Você perdeu!")
 # papel 
 
 # tessoura
