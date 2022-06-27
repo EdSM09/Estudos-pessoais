@@ -18,6 +18,8 @@ print(computador)
 
 
 # criar os if statements de acordo com as regras do jogo 
+# empate
+
 # pedra
 
 # papel 
