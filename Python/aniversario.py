@@ -4,10 +4,12 @@
 from datetime import date
 
 # criar uma variável que irá armazenar a data atual
-dataAtual = date.today()
-dataAtualS = dataAtual.strftime("%d/%m/%y")
-print(dataAtualS)
+dataAtual = date.today() # definir data atual
+
 # transformar essa data em uma string usando strftime()
+dataAtualS = dataAtual.strftime("%d/%m/%y") # transformar ela em uma string no formato dd/mmm/aa
+print(dataAtualS) # imprimir data para confirmar 
+
 
 # comparar a string que representa a data atual com data do meu aniversário
 
