@@ -10,11 +10,16 @@ opções = ["pedra", "papel", "tessoura"]
 jogador = None
 while jogador not in opções:
     jogador = input("Pedra papel ou tessoura?: ").lower()
-print(jogador)
+    print(jogador)
 
 # fazer o computador escolher um valor dentro da variávell opções 
 computador =  random.choice(opções)
 print(computador)
 
 
+# criar os if statements de acordo com as regras do jogo 
+# pedra
 
+# papel 
+
+# tessoura
