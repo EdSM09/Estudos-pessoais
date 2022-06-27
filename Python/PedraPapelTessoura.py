@@ -37,4 +37,8 @@ elif jogador == "papel":
 # tessoura
 elif jogador == "tessoura":
     if computador == "papel":
-    if computador == "pedra":
+        print("Você ganhou!!!!!")
+    if computador == "pedra":        
+        print("Você perdeu!")
+
+        
