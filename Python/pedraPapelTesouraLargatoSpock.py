@@ -3,7 +3,7 @@
 import random 
 
 # opções de escolha do jogo
-opções = ["pedra", "papel", "tesoura","lagarto","spock"]
+opções = ["pedra", "papel", "tesoura", "lagarto", "spock"]
 
 # fazer um loop while para repetir o jogo
 while True:
@@ -33,10 +33,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
-        if computador == "lagato":
-            print("Jogador: ",jogador)
-            print("Computador: ",computador)
-            print("Você ganhou!!!!!")      
+       
     # papel 
     elif jogador == "papel":
         if computador == "pedra":
@@ -58,6 +55,17 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)     
             print("Você perdeu!")
+    # lagarto
+    elif jogador == "lagarto":
+        if computador == "pedra":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)     
+            print("Você perdeu!")
+        if computador == "papel":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
+            print("Você ganhou!!!!!")
+        if computador == "tesoura":        
     jogarNovamente = input("Você que jogar de novo (sim/não)?: ").lower()
     
     if jogarNovamente != "sim":
