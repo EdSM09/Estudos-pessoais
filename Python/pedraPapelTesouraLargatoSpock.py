@@ -29,10 +29,12 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            
         if computador == "papel":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
+            
         if computador == "lagarto":
             print("Jogador: ",jogador)
             print("Computador: ",computador)  
@@ -93,14 +95,17 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)     
             print("Você perdeu!")
+            
         if computador == "papel":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            
         if computador == "tesoura":
             print("Jogador: ",jogador)
             print("Computador: ",computador)     
             print("Você perdeu!")
+            
         if computador == "spock":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
