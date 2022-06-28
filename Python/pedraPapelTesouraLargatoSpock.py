@@ -65,7 +65,14 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
-        if computador == "tesoura":        
+        if computador == "tesoura":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)     
+            print("Você perdeu!")
+        if computador == "spock":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
+            print("Você ganhou!!!!!")
     jogarNovamente = input("Você que jogar de novo (sim/não)?: ").lower()
     
     if jogarNovamente != "sim":
