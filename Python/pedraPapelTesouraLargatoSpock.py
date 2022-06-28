@@ -33,6 +33,14 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
+        if computador == "lagarto":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)     
+            print("Você perdeu!")
+        if computador ==  "spock":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
+            print("Você ganhou!!!!!")             
        
     # papel 
     elif jogador == "papel":
