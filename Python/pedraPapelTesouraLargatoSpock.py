@@ -3,7 +3,7 @@
 import random 
 
 # opções de escolha do jogo
-opções = ["pedra", "papel", "tesoura"]
+opções = ["pedra", "papel", "tesoura","largato","spock"]
 
 # fazer um loop while para repetir o jogo
 while True:
