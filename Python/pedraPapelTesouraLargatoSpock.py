@@ -36,7 +36,7 @@ while True:
         if computador == "lagato":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
-            print(Você ganhou!!!!!)      
+            print("Você ganhou!!!!!")      
     # papel 
     elif jogador == "papel":
         if computador == "pedra":
