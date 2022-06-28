@@ -35,31 +35,35 @@ while True:
             print("Você perdeu!")
         if computador == "lagarto":
             print("Jogador: ",jogador)
-            print("Computador: ",computador)     
-            print("Você perdeu!")
+            print("Computador: ",computador)  
+            print("Você ganhou!!!!!")
+   
         if computador ==  "spock":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
-            print("Você ganhou!!!!!")             
-       
+            print("Você perdeu!")
+ 
     # papel 
     elif jogador == "papel":
         if computador == "pedra":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            
         if computador == "tesoura":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
+            
         if computador == "lagarto":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
+            
         if computador == "spock":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
-            print("Você perdeu!")      
+            print("Você ganhou!!!!!")
     # tesoura
     elif jogador == "tesoura":
         if computador == "papel":
@@ -70,6 +74,12 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)     
             print("Você perdeu!")
+        if computador == "lagarto":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)     
+            print("Você perdeu!")
+        if computador == "lagarto":
+
     # lagarto
     elif jogador == "lagarto":
         if computador == "pedra":
