@@ -11,7 +11,7 @@ while True:
     # garantir que o input é uma das opções do jogo
     jogador = None
     while jogador not in opções:
-        jogador = input("Pedra papel ou tesoura?: ").lower()
+        jogador = input("Pedra, papel, tesoura, lagarto ou spock?: ").lower()
 
     # fazer o computador escolher um valor dentro da variávell opções 
     computador =  random.choice(opções)
