@@ -52,7 +52,14 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você perdeu!")
-
+        if computador == "lagarto":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
+            print("Você perdeu!")
+        if computador == "spock":
+            print("Jogador: ",jogador)
+            print("Computador: ",computador)
+            print("Você perdeu!")      
     # tesoura
     elif jogador == "tesoura":
         if computador == "papel":
