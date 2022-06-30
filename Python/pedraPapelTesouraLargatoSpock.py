@@ -140,6 +140,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)     
             print("Você perdeu!")
+            pontos = pontos + 1
 
             
     jogarNovamente = input("Você que jogar de novo (sim/não)?: ").lower()
