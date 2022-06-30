@@ -146,5 +146,5 @@ while True:
     
     if jogarNovamente != "sim":
         break
-print(pontos)
+print("Você ganhou ",pontos, " vezes")
 print("Tchaul!")
