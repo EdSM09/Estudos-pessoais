@@ -5,6 +5,8 @@ import random
 # opções de escolha do jogo
 opções = ["pedra", "papel", "tesoura", "lagarto", "spock"]
 
+#variavel que armazena os pontos
+pontos = 0
 # fazer um loop while para repetir o jogo
 while True:
     # pedir a escolha do jogador em minusculo 
@@ -29,6 +31,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
             
         if computador == "papel":
             print("Jogador: ",jogador)
