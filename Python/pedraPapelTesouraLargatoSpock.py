@@ -124,6 +124,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
     
         if computador == "papel":
             print("Jogador: ",jogador)
@@ -134,6 +135,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
 
             
         if computador == "lagarto":
