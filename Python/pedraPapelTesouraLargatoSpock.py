@@ -150,4 +150,6 @@ while True:
     if jogarNovamente != "sim":
         break
 print("Você ganhou ",pontos, " vezes")
+if pontos > 10:
+    print("Uau em. o0o")
 print("Tchaul!")
