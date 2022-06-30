@@ -140,4 +140,5 @@ while True:
     
     if jogarNovamente != "sim":
         break
+print(pontos)
 print("Tchaul!")
