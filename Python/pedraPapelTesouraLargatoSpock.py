@@ -42,7 +42,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)  
             print("Você ganhou!!!!!")
-   
+            pontos = pontos + 1
         if computador ==  "spock":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
@@ -54,6 +54,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
             
         if computador == "tesoura":
             print("Jogador: ",jogador)
@@ -69,12 +70,14 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
     # tesoura
     elif jogador == "tesoura":
         if computador == "papel":
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
             
         if computador == "pedra":   
             print("Jogador: ",jogador)
@@ -85,6 +88,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)     
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
             
         if computador == "spock":
             print("Jogador: ",jogador)
@@ -102,6 +106,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
             
         if computador == "tesoura":
             print("Jogador: ",jogador)
@@ -112,6 +117,7 @@ while True:
             print("Jogador: ",jogador)
             print("Computador: ",computador)
             print("Você ganhou!!!!!")
+            pontos = pontos + 1
     # spock
     elif jogador == "spock":
         if computador == "pedra":
