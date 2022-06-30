@@ -88,7 +88,6 @@ while True:
             print("Computador: ",computador)     
             print("Você perdeu!")
           
-
     # lagarto
     elif jogador == "lagarto":
         if computador == "pedra":
